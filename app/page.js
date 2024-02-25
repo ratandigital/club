@@ -1245,7 +1245,7 @@ THAN YOURSELF <br />
                 </div>
                 <div className="tp-service-content">
                   <h4 className="tp-service-title-sm">
-                    <a href="">Achivement</a>
+                    <a href="">Achievement</a>
                   </h4>
                   <p>Write a short descip onthat ipsum loreum sed ameture hot</p>
                 </div>
