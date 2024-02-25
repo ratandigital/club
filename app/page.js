@@ -45,7 +45,7 @@ export default function Home() {
             <div className="search__wrapper">
               <div className="search__top d-flex justify-content-between align-items-center">
                 <div className="search__logo">
-                  <a href="index.html">
+                  <a href="/">
                     <img src="assets/img/logo/logo-white.png" alt="" />
                   </a>
                 </div>
@@ -130,7 +130,7 @@ export default function Home() {
           </button>
         </div>
         <div className="tpoffcanvas__logo">
-          <a href="index.html">
+          <a href="/">
             <img src="assets/img/logo/logo-white.png" alt="" />
           </a>
         </div>
@@ -273,17 +273,17 @@ export default function Home() {
           <div className="row align-items-center">
             <div className="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-8">
               <div className="tp-header-logo">
-                <a href="index.html">
+                <a href="/">
                   <img src="assets/img/logo/logo.png" alt="" />
                 </a>
               </div>
             </div>
             <div className="col-xxl-6 col-xl-7 d-none d-xl-block">
               <div className="tp-header-menu">
-                <nav className="tp-main-menu-content">
+                <nav className="tp-main-menu-content ">
                   <ul>
-                    <li className="has-dropdown">
-                      <a href="index.html">HOME</a>
+                    <li className="has-dropdown text-whitez">
+                      <a className="text-white" href="/">HOME</a>
                       {/* <div className="tp-submenu submenu has-homemenu">
                         <div className="row gx-6 row-cols-1 row-cols-md-2 row-cols-xl-3">
                           <div className="col homemenu">
@@ -353,27 +353,27 @@ export default function Home() {
                       </div> */}
                     </li>
                     <li>
-                      <a href="about.html">About</a>
+                      <a className="text-white" href="">About</a>
                     </li>
                     <li className="has-dropdown">
-                      <a href="service.html">SERVICES</a>
+                      <a className="text-white" href="">SERVICES</a>
                       <ul className="tp-submenu submenu">
                         <li>
-                          <a href="service.html">Service</a>
+                          <a className="text-white" href="">Service</a>
                         </li>
                         <li>
-                          <a href="service-details.html">Service Details</a>
+                          <a className="text-white" href="">Service Details</a>
                         </li>
                       </ul>
                     </li>
                     <li className="has-dropdown">
-                      <a href="#">Pages</a>
+                      <a className="text-white" href="#">Pages</a>
                       {/* <ul className="tp-submenu submenu">
                         <li>
                           <a href="team.html">Team</a>
                         </li>
                         <li>
-                          <a href="team-details.html">Team Details</a>
+                          <a href="">Team Details</a>
                         </li>
                         <li>
                           <a href="departments.html">Department</a>
@@ -391,7 +391,7 @@ export default function Home() {
                           <a href="portfolio.html">Portfolio</a>
                         </li>
                         <li>
-                          <a href="portfolio-details.html">Portfolio Details</a>
+                          <a href="">Portfolio Details</a>
                         </li>
                         <li>
                           <a href="history.html">History</a>
@@ -420,21 +420,21 @@ export default function Home() {
                       </ul> */}
                     </li>
                     <li className="has-dropdown">
-                      <a href="blog.html">NEWS</a>
+                      <a className="text-white" href="">NEWS</a>
                       <ul className="tp-submenu submenu">
                         <li>
-                          <a href="blog.html">Blog</a>
+                          <a className="" href="">Blog</a>
                         </li>
                         <li>
-                          <a href="blog-standard.html">Blog Standard</a>
+                          <a className="" href="">Blog Standard</a>
                         </li>
                         <li>
-                          <a href="blog-details.html">Blog Details</a>
+                          <a className="" href="">Blog Details</a>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <a href="contact.html">CONTACT</a>
+                      <a className="text-white" href="">CONTACT</a>
                     </li>
                   </ul>
                 </nav>
@@ -449,7 +449,7 @@ export default function Home() {
                     </button>
                   </div>
                   <div className="tp-header-right-btn d-none d-sm-block">
-                    <a className="tp-btn" href="contact.html">
+                    <a className="tp-btn" href="">
                       Member Area
                     </a>
                   </div>
@@ -545,7 +545,7 @@ export default function Home() {
                           </div>
                           <div className="tp-slider-video-box d-flex align-items-center">
                             <div className="tp-slider-btn">
-                              <a className="tp-btn-xl mr-30" href="about.html">
+                              <a className="tp-btn-xl mr-30" href="">
                                 Discover More
                               </a>
                             </div>
@@ -606,7 +606,7 @@ export default function Home() {
                           </div>
                           <div className="tp-slider-video-box d-flex align-items-center">
                             <div className="tp-slider-btn">
-                              <a className="tp-btn-xl mr-30" href="about.html">
+                              <a className="tp-btn-xl mr-30" href="">
                                 Discover More
                               </a>
                             </div>
@@ -667,7 +667,7 @@ export default function Home() {
                           </div>
                           <div className="tp-slider-video-box d-flex align-items-center">
                             <div className="tp-slider-btn">
-                              <a className="tp-btn-xl mr-30" href="about.html">
+                              <a className="tp-btn-xl mr-30" href="">
                                 Discover More
                               </a>
                             </div>
@@ -822,29 +822,29 @@ export default function Home() {
                   <div className="tp-about-feature-list">
                     <ul>
                       <li>
-                        <a href="service-details.html">আড্ডা</a>
+                        <a href="">আড্ডা</a>
                       </li>
                       <li>
-                        <a href="service-details.html">খেলাধুলা</a>
+                        <a href="">খেলাধুলা</a>
                       </li>
                       <li>
-                        <a href="service-details.html">যোগাযোগ বৃদ্ধি</a>
+                        <a href="">যোগাযোগ বৃদ্ধি</a>
                       </li>
                       <li>
-                        <a href="service-details.html">মতবিনিময়</a>
+                        <a href="">মতবিনিময়</a>
                       </li>
                       <li>
-                        <a href="service-details.html">
+                        <a href="">
                           সদস্য হওয়ার যোগ্যতা
                         </a>
                       </li>
                       {/* <li>
-                        <a href="service-details.html">Report Polution</a>
+                        <a href="">Report Polution</a>
                       </li> */}
                     </ul>
                   </div>
                   <div className="tp-about-feature-btn">
-                    <a className="tp-btn-purple" href="service.html">
+                    <a className="tp-btn-purple" href="">
                       KNOW MORE
                     </a>
                   </div>
@@ -951,7 +951,7 @@ THAN YOURSELF
                 </div>
                 <div className="tp-team-2-content text-center">
                   <h4 className="tp-team-2-title">
-                    <a href="team-details.html">মোঃ আবু আবদুল্লাহ খান </a>
+                    <a href="">মোঃ আবু আবদুল্লাহ খান </a>
                   </h4>
                   <span>উপজেলা নির্বাহী অফিসার</span>
                   <div className="tp-team-2-social-box">
@@ -988,7 +988,7 @@ THAN YOURSELF
                 </div>
                 <div className="tp-team-2-content text-center">
                   <h4 className="tp-team-2-title">
-                    <a href="team-details.html">মোঃ অহিদুর রহমান</a>
+                    <a href="">মোঃ অহিদুর রহমান</a>
                   </h4>
                   <span>উপজেলা প্রকৌশলী</span>
                   <div className="tp-team-2-social-box">
@@ -1025,7 +1025,7 @@ THAN YOURSELF
                 </div>
                 <div className="tp-team-2-content text-center">
                   <h4 className="tp-team-2-title">
-                    <a href="team-details.html">অশোক কুমার চৌধুরী</a>
+                    <a href="">অশোক কুমার চৌধুরী</a>
                   </h4>
                   <span>উপজেলা খাদ্য নিয়ন্ত্রক</span>
                   <div className="tp-team-2-social-box">
@@ -1076,7 +1076,7 @@ THAN YOURSELF
                 <h4 style={{backgroundColor:'#344955', padding:'5px', color:'white', textAlign:'center'}}>Quick Services</h4>
                 <ul>
                   <li>
-                    <a href="service-details.html">
+                    <a href="">
                       Rules and regulation
                       <span>
                         <i className="flaticon-right-arrow" />
@@ -1084,7 +1084,7 @@ THAN YOURSELF
                     </a>
                   </li>
                   <li>
-                    <a href="service-details.html">
+                    <a href="">
                       Financial Statement
                       <span>
                         <i className="flaticon-right-arrow" />
@@ -1092,7 +1092,7 @@ THAN YOURSELF
                     </a>
                   </li>
                   <li>
-                    <a href="service-details.html">
+                    <a href="">
                       Member Area
                       <span>
                         <i className="flaticon-right-arrow" />
@@ -1100,7 +1100,7 @@ THAN YOURSELF
                     </a>
                   </li>
                   <li>
-                    <a href="service-details.html">
+                    <a href="">
                       Apply for Membership
                       <span>
                         <i className="flaticon-right-arrow" />
@@ -1108,7 +1108,7 @@ THAN YOURSELF
                     </a>
                   </li>
                   <li>
-                    <a href="service-details.html">
+                    <a href="">
                       Pay Monthly Subscription 
                       <span>
                         <i className="flaticon-right-arrow" />
@@ -1116,7 +1116,7 @@ THAN YOURSELF
                     </a>
                   </li>
                   <li>
-                    <a href="service-details.html">
+                    <a href="">
                       Share your related activities
                       <span>
                         <i className="flaticon-right-arrow" />
@@ -1131,7 +1131,7 @@ THAN YOURSELF
               <h4 style={{backgroundColor:'#344955', padding:'5px', color:'white', textAlign:'center'}}>Notice</h4>
                 <ul>
                   <li>
-                    <a href="service-details.html">
+                    <a href="">
                       Monthly meeting schedule date
                       <span>
                         <i className="flaticon-right-arrow" />
@@ -1139,7 +1139,7 @@ THAN YOURSELF
                     </a>
                   </li>
                   <li>
-                    <a href="service-details.html">
+                    <a href="">
                       Important notice for all
                       <span>
                         <i className="flaticon-right-arrow" />
@@ -1147,7 +1147,7 @@ THAN YOURSELF
                     </a>
                   </li>
                   <li>
-                    <a href="service-details.html">
+                    <a href="">
                       Tournament notice
                       <span>
                         <i className="flaticon-right-arrow" />
@@ -1155,7 +1155,7 @@ THAN YOURSELF
                     </a>
                   </li>
                   <li>
-                    <a href="service-details.html">
+                    <a href="">
                       xxxxx
                       <span>
                         <i className="flaticon-right-arrow" />
@@ -1163,7 +1163,7 @@ THAN YOURSELF
                     </a>
                   </li>
                   <li>
-                    <a href="service-details.html">
+                    <a href="">
                       New member collection notice
                       <span>
                         <i className="flaticon-right-arrow" />
@@ -1171,7 +1171,7 @@ THAN YOURSELF
                     </a>
                   </li>
                   <li>
-                    <a href="service-details.html">
+                    <a href="">
                       xxxxx
                       <span>
                         <i className="flaticon-right-arrow" />
@@ -1220,12 +1220,12 @@ THAN YOURSELF <br />
                 </div>
                 <div className="tp-service-content">
                   <h4 className="tp-service-title-sm">
-                    <a href="service-details.html">MemberShip</a>
+                    <a href="">MemberShip</a>
                   </h4>
                   <p>Write a short descip onthat ipsum loreum sed ameture hot</p>
                 </div>
                 <div className="tp-service-link">
-                  <a href="service-details.html">
+                  <a href="">
                     Read More <i className="fa-light fa-arrow-right" />
                   </a>
                 </div>
@@ -1245,12 +1245,12 @@ THAN YOURSELF <br />
                 </div>
                 <div className="tp-service-content">
                   <h4 className="tp-service-title-sm">
-                    <a href="service-details.html">Achivement</a>
+                    <a href="">Achivement</a>
                   </h4>
                   <p>Write a short descip onthat ipsum loreum sed ameture hot</p>
                 </div>
                 <div className="tp-service-link">
-                  <a href="service-details.html">
+                  <a href="">
                     Read More <i className="fa-light fa-arrow-right" />
                   </a>
                 </div>
@@ -1270,12 +1270,12 @@ THAN YOURSELF <br />
                 </div>
                 <div className="tp-service-content">
                   <h4 className="tp-service-title-sm">
-                    <a href="service-details.html">Gallary</a>
+                    <a href="">Gallary</a>
                   </h4>
                   <p>Write a short descip onthat ipsum loreum sed ameture hot</p>
                 </div>
                 <div className="tp-service-link">
-                  <a href="service-details.html">
+                  <a href="">
                     Read More <i className="fa-light fa-arrow-right" />
                   </a>
                 </div>
@@ -1295,12 +1295,12 @@ THAN YOURSELF <br />
                 </div>
                 <div className="tp-service-content">
                   <h4 className="tp-service-title-sm">
-                    <a href="service-details.html">Culture and Recreation </a>
+                    <a href="">Culture and Recreation </a>
                   </h4>
                   <p>Write a short descip onthat ipsum loreum sed ameture hot</p>
                 </div>
                 <div className="tp-service-link">
-                  <a href="service-details.html">
+                  <a href="">
                     Read More <i className="fa-light fa-arrow-right" />
                   </a>
                 </div>
@@ -1590,11 +1590,11 @@ THAN YOURSELF <br />
                         <div className="tp-project-content">
                           <span>Club Tour Activity</span>
                           <h4 className="tp-project-title-sm">
-                            <a href="portfolio-details.html">Kuakata Sea biz</a>
+                            <a href="">Kuakata Sea biz</a>
                           </h4>
                         </div>
                         <div className="tp-project-icon">
-                          <a href="portfolio-details.html">
+                          <a href="">
                             <i className="fa-regular fa-arrow-right" />
                           </a>
                         </div>
@@ -1610,11 +1610,11 @@ THAN YOURSELF <br />
                         <div className="tp-project-content">
                           <span>Sports Meeting Activity</span>
                           <h4 className="tp-project-title-sm">
-                            <a href="portfolio-details.html">Officers Club</a>
+                            <a href="">Officers Club</a>
                           </h4>
                         </div>
                         <div className="tp-project-icon">
-                          <a href="portfolio-details.html">
+                          <a href="">
                             <i className="fa-regular fa-arrow-right" />
                           </a>
                         </div>
@@ -1630,11 +1630,11 @@ THAN YOURSELF <br />
                         <div className="tp-project-content">
                           <span>Community Service</span>
                           <h4 className="tp-project-title-sm">
-                            <a href="portfolio-details.html">Community Service</a>
+                            <a href="">Community Service</a>
                           </h4>
                         </div>
                         <div className="tp-project-icon">
-                          <a href="portfolio-details.html">
+                          <a href="">
                             <i className="fa-regular fa-arrow-right" />
                           </a>
                         </div>
@@ -1650,11 +1650,11 @@ THAN YOURSELF <br />
                         <div className="tp-project-content">
                           <span>Cultural Event</span>
                           <h4 className="tp-project-title-sm">
-                            <a href="portfolio-details.html">Cultural Event</a>
+                            <a href="">Cultural Event</a>
                           </h4>
                         </div>
                         <div className="tp-project-icon">
-                          <a href="portfolio-details.html">
+                          <a href="">
                             <i className="fa-regular fa-arrow-right" />
                           </a>
                         </div>
@@ -1670,11 +1670,11 @@ THAN YOURSELF <br />
                         <div className="tp-project-content">
                           <span>Educational Workshop</span>
                           <h4 className="tp-project-title-sm">
-                            <a href="portfolio-details.html">Educational Workshop</a>
+                            <a href="">Educational Workshop</a>
                           </h4>
                         </div>
                         <div className="tp-project-icon">
-                          <a href="portfolio-details.html">
+                          <a href="">
                             <i className="fa-regular fa-arrow-right" />
                           </a>
                         </div>
@@ -1828,7 +1828,7 @@ THAN YOURSELF <br />
             <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
               <div className="tp-blog__item">
                 <div className="tp-blog__thumb p-relative fix">
-                  <a href="blog-details.html">
+                  <a href="">
                     <img
                       className="w-100"
                       src="assets/img/blog/kuakata.jpg"
@@ -1889,7 +1889,7 @@ THAN YOURSELF <br />
             <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
               <div className="tp-blog__item">
                 <div className="tp-blog__thumb p-relative fix">
-                  <a href="blog-details.html">
+                  <a href="">
                     <img
                       className="w-100"
                       src="assets/img/blog/kuakata.jpg"
@@ -1935,12 +1935,12 @@ THAN YOURSELF <br />
                     </span>
                   </div>
                   <h5 className="tp-blog__title-sm">
-                    <a href="blog-details.html">
+                    <a href="">
                     A Memorable Journey to Kuakata with Gournadi Officer's Club
                     </a>
                   </h5>
                   <div className="tp-blog__link">
-                    <a href="blog-details.html">
+                    <a href="">
                       Read More <i className="fa-regular fa-arrow-right-long" />
                     </a>
                   </div>
@@ -1950,7 +1950,7 @@ THAN YOURSELF <br />
             <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
               <div className="tp-blog__item">
                 <div className="tp-blog__thumb p-relative fix">
-                  <a href="blog-details.html">
+                  <a href="">
                     <img
                       className="w-100"
                       src="assets/img/blog/kuakata.jpg"
@@ -1996,12 +1996,12 @@ THAN YOURSELF <br />
                     </span>
                   </div>
                   <h5 className="tp-blog__title-sm">
-                    <a href="blog-details.html">
+                    <a href="">
                     A Memorable Journey to Kuakata with Gournadi Officer's Club
                     </a>
                   </h5>
                   <div className="tp-blog__link">
-                    <a href="blog-details.html">
+                    <a href="">
                       Read More <i className="fa-regular fa-arrow-right-long" />
                     </a>
                   </div>
@@ -2092,7 +2092,7 @@ THAN YOURSELF <br />
             >
               <div className="tp-footer-widget footer-col-1">
                 <div className="tp-footer-widget-logo">
-                  <a href="index.html">
+                  <a href="/">
                     <img src="assets/img/logo/logo.png" alt="" />
                   </a>
                 </div>
@@ -2101,7 +2101,7 @@ THAN YOURSELF <br />
                     Desires to obtain pain of it because it is pain, but
                     occasionally circum We work with a passion of
                   </p>
-                  <a className="tp-btn white-anim" href="about.html">
+                  <a className="tp-btn white-anim" href="">
                     KNOW MORE
                   </a>
                 </div>
